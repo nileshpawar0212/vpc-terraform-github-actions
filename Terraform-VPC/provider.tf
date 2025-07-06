@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "mybucket"
+    bucket = "terragitactions"
     key    = "dev/terrafom.tfstate"
     region = "us-east-1"
   }

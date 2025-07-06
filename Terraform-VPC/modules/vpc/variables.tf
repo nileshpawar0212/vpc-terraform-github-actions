@@ -9,7 +9,7 @@ variable "subnet_cidr" {
   
 }
 
-variable "Subnet_names" {
+variable "subnet_names" {
     description = "Subnet Names"
   type = list(string)
   default = [ "PublicSubnet1", "PublicSubnet2" ]
