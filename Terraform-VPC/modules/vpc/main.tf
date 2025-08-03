@@ -39,9 +39,8 @@ resource "aws_route_table" "rt" {
     gateway_id = aws_internet_gateway.igw.id
   }
 
-  
   tags = {
-    Name = "rt"
+    Name = "MyRouteTable"
   }
 }
 
