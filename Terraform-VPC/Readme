@@ -1,1 +1,4 @@
 https://youtu.be/v4MP7fvLw44?si=9FUn1uk43SalWjrt
+
+
+aws s3api create-bucket --bucket terragitactions --region us-east-1
